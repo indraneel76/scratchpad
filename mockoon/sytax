@@ -1,0 +1,1 @@
+docker run --mount type=bind,source=c:/work/mockoonData.json,target=/data,readonly -p 3001:3001 mymockoon -d data
